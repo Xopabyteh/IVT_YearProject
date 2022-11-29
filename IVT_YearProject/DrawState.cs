@@ -1,6 +1,6 @@
 ﻿namespace IVT_YearProject;
 
-public record Player : IDrawable
+public struct DrawState
 {
     public Int2 Position { get; set; }
     public char Sprite { get; set; }
